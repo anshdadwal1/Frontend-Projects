@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 img {
+    height: 90%;
+    width: 80%;
+    object-fit: cover;
+}
+
+#box2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#lbox {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#insta {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-box {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.facebook {
+    color: #385185;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#pass {
+    margin-top: 10px;
+    color: #999;
+    font-size: 12px;
+}
+
+#sbox {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    text-align: center;
+}
+
+#signup {
+    color: #0095f6;
+    cursor: pointer;
+}
