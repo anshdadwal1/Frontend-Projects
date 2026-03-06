@@ -32,6 +32,17 @@ h1{
     margin-bottom: 30px;
 }
 
+li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+li span{
+    color: red;
+    font-size: 18px;
+}
+
 .box1{
     width: 60%;
     border: 2px solid rgb(13, 137, 246);
